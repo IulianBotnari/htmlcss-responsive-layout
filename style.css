@@ -7,7 +7,9 @@
 }
 
 
-
+iframe{
+    aspect-ratio: 16/9;
+}
 
 
 /* #ednd region common */
@@ -44,8 +46,15 @@
     display: flex;
 }
 
-.jfy_sb{
+.j_fy_center{
+    justify-content: center;
+}
+.j_fy_sb{
     justify-content: space-between;
+}
+
+.allign_center{
+    align-items: center;
 }
 
 .p_l_r{
@@ -59,10 +68,20 @@
 
 }
 
-.j_fy_center{
-    justify-content: center;
+.row{
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.col_12{
+    flex-direction: column;
+    padding: .5rem;
+}
+
+
+.bg_white{
+    background-color: white;
+}
 
 
 /* #end region utility */
@@ -101,6 +120,37 @@ main{
 
 .desserts{
     color: gray;
+}
+
+
+.rate{
+    a{
+        text-decoration: none;
+        color: var(--zafferano-secondary);
+        font-size: .8rem;
+        font-weight: 900;
+        background-color: var(--zafferano-orangezaf);
+        padding: .6rem .7rem;
+        border-radius: 20px;
+
+    }
+}
+
+
+.tiramisu{
+    font-family: "Nerko One", cursive;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.5rem;
+    color:var(--zafferano-violetzaf);
+    padding: .6rem .7rem;
+    
+
+}
+
+iframe{
+    width: 100%;
+    max-width: 576px;
 }
 
 /* #endregion main */
