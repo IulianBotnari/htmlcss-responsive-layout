@@ -134,6 +134,7 @@ iframe{
 
 main{
     background-color: var(--zafferano-greyzaf);
+    padding-bottom: 2rem;
 }
 
 .desserts{
