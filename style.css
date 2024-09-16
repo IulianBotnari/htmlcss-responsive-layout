@@ -7,6 +7,12 @@
     
 }
 
+body{
+    margin: auto;
+    max-width: 1218px;
+    background-color: var(--zafferano-greyzaf);
+}
+
 /* img{
     width: 100%;
 } */
@@ -227,6 +233,27 @@ iframe{
 
 /* #endregion main */
 
+/* #region footer */
+
+footer{
+    background-color: var(--zafferano-violetzaf);
+    color: var(--zafferano-secondary);
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.6rem;
+
+    div{
+        margin: .5rem;
+    }
+
+    a{
+        color: var(--zafferano-secondary);
+        margin: .5rem;
+    }
+}
+
+
+/* end#region footer */
 
 
 /* #region large mobile */
@@ -378,8 +405,22 @@ iframe{
         width: 100%;
     }
 
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .adress{
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
     
 }
+
+
 
 /* #endregion desktop */
 
