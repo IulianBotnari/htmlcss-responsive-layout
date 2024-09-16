@@ -91,6 +91,10 @@ iframe{
     box-shadow: 0 0 .2rem;
 }
 
+.line_h{
+    line-height: 25px;
+}
+
 
 /* #end region utility */
 
@@ -194,9 +198,32 @@ iframe{
 }
 
 
-
-
 /* #endregion button */
+
+/* #region banner */
+
+.banner{
+    display: none;
+}
+
+/* #endregion banner */
+
+/* #region presentation */
+
+.img_tiramisu{
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+.hr{
+    border-bottom: 2px solid;
+    width: 4rem;
+    color: var(--zafferano-orangezaf);
+}
+
+
+/* #endregion presentation */
 
 /* #endregion main */
 
@@ -254,6 +281,12 @@ iframe{
         margin-right: 1rem;
 
     }
+
+    .img_tiramisu{
+        width: 40%;
+        float: left;
+    }
+
     
 }
 
@@ -338,6 +371,11 @@ iframe{
         .d_block{
             display: inline;
         }
+    }
+
+    .banner_lg{
+        display: inline;
+        width: 100%;
     }
 
     
