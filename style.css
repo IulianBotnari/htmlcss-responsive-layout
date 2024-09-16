@@ -22,8 +22,7 @@ iframe{
 }
 
 
-/* #ednd region common */
-
+/* #endregion common */
 
 /* #region utility */
 
@@ -101,8 +100,20 @@ iframe{
     line-height: 25px;
 }
 
+.m_bhalfrem{
+    margin-bottom: .5rem;
+}
 
-/* #end region utility */
+.m_thalfrem{
+    margin-top: .5rem;
+}
+
+.w_max{
+    max-width: 320px;
+
+}
+
+/* #endregion utility */
 
 /* #region header */
 
@@ -128,7 +139,6 @@ iframe{
 
 
 /* #endregion header */
-
 
 /* #region main */
 
@@ -162,7 +172,10 @@ main{
     font-style: normal;
     font-size: 1.5rem;
     color:var(--zafferano-violetzaf);
-    padding: .6rem .7rem;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    padding-right: .7rem;
+
     
 
 }
@@ -254,8 +267,7 @@ footer{
 }
 
 
-/* end#region footer */
-
+/* #endregion footer */
 
 /* #region large mobile */
 
