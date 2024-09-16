@@ -1,0 +1,157 @@
+/* #region common */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* #ednd region common */
+
+
+/* #region utility */
+
+.debug{
+    border: 1px solid black;
+}
+
+:root{
+    --zafferano-primary: #000000;
+    --zafferano-secondary: #ffffff;
+    --zafferano-orangezaf: #ff9614;
+    --zafferano-greyzaf: #f6f5f3;
+    --zafferano-violetzaf: #4e3969;
+    --zafferano-lightvioletzaf: #7c69a4;
+}
+
+.montserrat {
+    font-family: "Montserrat", "Helvetica Neue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.container{
+    width: 100%;
+    max-width: 576px;
+}
+
+.d_flex{
+    display: flex;
+}
+
+.jfy_sb{
+    justify-content: space-between;
+}
+
+.p_l_r{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.p_y_2{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.j_fy_center{
+    justify-content: center;
+}
+
+
+
+/* #end region utility */
+
+/* #region header */
+
+.title{
+    font-size: 1.5rem;
+    background-color: var(--zafferano-secondary);
+}
+
+.nerko-one-regular {
+    font-family: "Nerko One", cursive;
+    font-weight: 900;
+    font-style: normal;
+    color: var(--zafferano-orangezaf);
+    text-shadow: grey 2px 2px;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  header{
+    width: 100%;
+  }
+
+
+
+/* #endregion header */
+
+
+/* #region main */
+
+main{
+    background-color: var(--zafferano-greyzaf);
+}
+
+.desserts{
+    color: gray;
+}
+
+/* #endregion main */
+
+
+
+/* #region large mobile */
+
+@media screen and (min-width:576px) {
+    .container_sm{
+        width: 100%;
+        max-width: 768px;
+    }
+    
+
+    
+}
+
+/* #endregion large mobile */
+
+/* #region tablet */
+
+@media screen and (min-width:768px) {
+    .container_m{
+        width: 100%;
+        max-width: 992px;
+    }
+
+    .d_flex_m{
+        display: flex;
+        
+    }
+        
+    
+    
+}
+
+/* #endregion tablet */
+
+/* #region desktop */
+
+@media screen and (min-width:992px) {
+
+    .container_lg{
+        max-width: 100%;
+        
+    
+    }
+   
+    
+}
+
+/* #endregion desktop */
+
